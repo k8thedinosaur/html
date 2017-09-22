@@ -3,62 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
 </head>
 <body>
-<article>
-    <div>
-        <form action="thanks.html" method="post" enctype="multipart/form-data">
+<div class="container">
+    <article id="colorForm">
+        <div>
+            <form action="thanks.html" method="post" enctype="multipart/form-data">
 
-            <fieldset>
-                <label for="formName">Name: </label>
-                <input type="text" name="name" id="formName">
+                <fieldset class="whiteBorder yellowText">
+                    <label for="formName">Name: </label>
+                    <input type="text" name="name" id="formName">
 
+                    <br>
+
+                    <label for="formEmail">Email: </label>
+                    <input type="text" name="email" id="formEmail">
+                </fieldset>
+
+                <fieldset>
+                    <label for="formHowHelp">How can we help? </label><br>
+                    <textarea name="help" id="formHowHelp" cols="30" rows="10">
+
+                    </textarea>
+
+                    <br>
+
+                    <label for="formNotes">Notes: </label><br>
+                    <textarea name="notes" id="formNotes" cols="30" rows="10">
+
+                    </textarea>
+                </fieldset>
+
+                <fieldset>
+                    <label for="formColor">Choose a color: </label>
+                    <input type="color" name="color" id="formColor">
+                </fieldset>
+                <fieldset>
+                    <legend>What are your favorite colors?</legend>
+                    <input type="checkbox" id="formColorFavesBlue" name="formColorFaves" value="Blue">
+                    <label for="formColorFavesBlue">Blue</label>
+                    <br>
+                    <input type="checkbox" id="formColorFavesRed" name="formColorFaves" value="Blue">
+                    <label for="formColorFavesRed">Red</label>
+                </fieldset>
+                <fieldset>
+                    <legend>What is the obviously best animal?</legend>
+                    <label for="formAnimalFavesCat"><input type="radio" id="formAnimalFavesCat" name="formAnimalFave" value="Cat">Cat</label>
+                    <br>
+                    <label for="formAnimalFavesDog"><input type="radio" id="formAnimalFavesDog" name="formAnimalFave" value="Dog">Dog</label>
+                </fieldset>
+
+                <input type="">
                 <br>
-
-                <label for="formEmail">Email: </label>
-                <input type="text" name="email" id="formEmail">
-            </fieldset>
-
-            <fieldset>
-                <label for="formHowHelp">How can we help? </label><br>
-                <textarea name="help" id="formHowHelp" cols="30" rows="10">
-
-                </textarea>
-
-                <br>
-
-                <label for="formNotes">Notes: </label><br>
-                <textarea name="notes" id="formNotes" cols="30" rows="10">
-
-                </textarea>
-            </fieldset>
-
-            <fieldset>
-                <label for="formColor">Choose a color: </label>
-                <input type="color" name="color" id="formColor">
-            </fieldset>
-            <fieldset>
-                <legend>What are your favorite colors?</legend>
-                <br>
-                <input type="checkbox" id="formColorFavesBlue" name="formColorFaves" value="Blue">
-                <label for="formColorFavesBlue">Blue</label>
-                <br>
-                <input type="checkbox" id="formColorFavesRed" name="formColorFaves" value="Blue">
-                <label for="formColorFavesRed">Red</label>
-            </fieldset>
-            <fieldset>
-                <legend>What is the obviously best animal?</legend>
-                <label for="formAnimalFavesCat"><input type="radio" id="formAnimalFavesCat" name="formAnimalFave" value="Cat">Cat</label>
-                <br>
-                <label for="formAnimalFavesCat"><input type="radio" id="formAnimalFavesDog" name="formAnimalFave" value="Dog">Dog</label>
-            </fieldset>
-
-            <input type="">
-            <br>
-            <input type="submit" value="Submit">
-            <input type="reset" value="Cats">
-        </form>
-    </div>
-</article>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Cats">
+            </form>
+        </div>
+    </article>
+</div>
 </body>
 </html>

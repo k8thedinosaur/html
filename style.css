@@ -1,0 +1,26 @@
+a {
+    background: green;
+}
+
+a {
+    background: red;
+}
+
+div a {
+    background: pink;
+}
+
+.first {
+    border: dashed;
+    background: gold;
+    /*padding: 40px;*/
+}
+
+#topName {
+    background: blue;
+
+}
+
+header div {
+    background: yellowgreen;
+}

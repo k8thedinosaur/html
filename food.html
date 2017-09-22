@@ -1,0 +1,76 @@
+<!--* A button to submit-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Food</title>
+    <style>
+        body {
+            background-color: crimson;
+            color: gold;
+            font-family: 'Ubuntu', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif
+        }
+    </style>
+
+</head>
+<body>
+<article>
+    <div>
+        <form action="thing.html" method="post">
+            <fieldset>
+                <legend><label for="formWhatEat">What did you have for dinner last night?</label></legend>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="whateat" id="formWhatEat">
+                <br>
+                Check if it contained any of the following:
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" id="formMeat" name="inDinner" value="Meat"><label for="formMeat">Meat</label>&nbsp;&nbsp;&nbsp;<input type="checkbox" id="formPotatoes" name="inDinner" value="Potatoes"><label for="formPotatoes">Potatoes</label>&nbsp;&nbsp;&nbsp;<input type="checkbox" id="formBroccoli" name="inDinner" value="Broccoli"><label for="formBroccoli">Broccoli</label>&nbsp;&nbsp;&nbsp;<input type="checkbox" id="formCheese" name="inDinner" value="Cheese"><label for="formCheese">Cheese</label>
+                <br>
+                <label for="formMemories">Tell us about your most memorable dinner:</label>
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<textarea name="memories" id="formMemories" cols="50" rows="10"></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Are you a vegetablearian?</legend>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" id="formVegYes" name="VegYes" value="Yep"><label for="formVegYes">Yep</label>&nbsp;&nbsp;&nbsp;<input type="radio" id="formVegNo" name="VegNo" value="Nope"><label for="formVegYes">Nope</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>What's your favorite ice cream flavor?</legend>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select>
+                    <option value="chocolate">Chocolate</option>
+                    <option value="vanilla">Vanilla</option>
+                    <option value="coffee">Coffee</option>
+                    <option value="bits">The kind with lots of bits of other things in it</option>
+                    <option value="none">I don't eat ice cream because I hate happiness</option>
+                    <option value="cats">...cats?</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>If you're hungry and you know it</legend>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...click this button!
+                <label for="nomButton"><input type="button" id="nomButton" name="nom" value="NOM NOM"></label>
+            </fieldset>
+            <fieldset>
+                <label for="formChopsticks">Let's see a picture of your best chopsticks!</label>
+                <br>
+                <input type="file" id="formChopsticks" name="chopsticks">
+                <br>
+                <br>
+                <img src="chopsticks.jpg" width="300" height="175">
+            </fieldset>
+
+
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Let's eat!">&nbsp;&nbsp;&nbsp;
+            <input type="reset" value="Fasting">
+
+
+
+
+        </form>
+    </div>
+</article>
+</body>
+</html>

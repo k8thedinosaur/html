@@ -1,0 +1,25 @@
+/*who {what: how}*/
+
+body{
+    background-color: #173b80;
+    color: #173b80;
+}
+
+.container{
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: ;
+}
+
+#colorForm {
+    color: red;
+}
+
+.whiteBorder {
+    border: white dotted 2px;
+}
+
+.yellowText {
+    color: yellow;
+}
