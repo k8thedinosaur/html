@@ -1,0 +1,68 @@
+body {
+    font-family: "Sitka Small";
+    color: #13293D;
+}
+
+h1, h2, h3 {
+    font-family: "Sitka Heading"
+}
+
+a {
+    text-decoration: none;
+    font-family: "Calibri Light", sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 5em;
+    background-color: #13293D;
+    border-bottom: solid 4px #2A628F;
+    color: #fff;
+    width: 100%;
+    top: 0;
+    padding: 15px;
+    position: fixed;
+}
+
+header img {
+    	height:100%;
+	border-radius:50%;
+	border:solid #2A628F 5px;
+	margin-right: 20px;
+}
+
+header div {
+    padding: 15px;
+}
+
+aside {
+    background-color: #3E92CC;
+    margin-top: 5em;
+    width: 100%;
+}
+
+section {
+
+}
+
+section div {
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0;
+
+}
+
+section div a {
+    border: solid 4px #2A628F ;
+    background-color: #16324F;
+    color: #fff;
+    padding: 15px;
+}
+
+aside, section, footer {
+    padding: 5em;
+}
+
