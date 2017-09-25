@@ -1,5 +1,15 @@
+body, html {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
 a {
     background: green;
+    color: #173b80;
+
 }
 
 a {
@@ -10,10 +20,12 @@ div a {
     background: pink;
 }
 
-.first {
+aside {
     border: dashed;
     background: gold;
     /*padding: 40px;*/
+    width: 200px;
+    margin: auto;
 }
 
 #topName {
@@ -22,5 +34,15 @@ div a {
 }
 
 header div {
-    background: yellowgreen;
+    background: yellowgreen !important;
+}
+
+section div {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    align-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
 }

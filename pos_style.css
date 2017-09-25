@@ -1,0 +1,47 @@
+div {
+    width: 100px;
+    height: 100px;
+
+}
+
+div:nth-child(2) {
+    background: blue;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+section div {
+    background: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+}
+
+section {
+    border: solid;
+    margin-top: 20px;
+    height: 100px;
+    position: relative;
+}
+
+div:nth-child(3) {
+    background: green;
+    position: fixed;
+    top: 0;
+}
+
+div:nth-child(4) {
+    background: purple;
+    position: sticky;
+}
+
+div:hover {
+    background: gold;
+}
+
+div::before {
+    content: "hello";
+}
