@@ -1,0 +1,73 @@
+.photos li:nth-child(1) {
+  border: red; }
+  .photos li:nth-child(1):before {
+    content: "cats"; }
+
+.photos li:nth-child(2) {
+  border: red; }
+  .photos li:nth-child(2):before {
+    content: "more cats"; }
+
+.photos li:nth-child(3) {
+  border: red; }
+  .photos li:nth-child(3):before {
+    content: "all of the cats"; }
+
+.aside-1 {
+  border: solid;
+  height: 100px;
+  width: 100px;
+  background: #333; }
+
+.aside-2 {
+  border: solid;
+  height: 100px;
+  width: 100px;
+  background: #222; }
+
+.aside-3 {
+  border: solid;
+  height: 100px;
+  width: 100px;
+  background: #fff; }
+
+.aside-4 {
+  border: solid;
+  height: 100px;
+  width: 100px;
+  background: #eee; }
+
+.while-5 {
+  width: 505px; }
+
+.while-4 {
+  width: 504px; }
+
+.while-3 {
+  width: 503px; }
+
+.while-2 {
+  width: 502px; }
+
+.while-1 {
+  width: 501px; }
+
+div {
+  background: lightblue; }
+  div section {
+    border: solid; }
+    div section h2 {
+      color: cadetblue; }
+
+header, aside {
+  border: dashed 15px red;
+  color: gray;
+  background: #333;
+  border: solid darkgray; }
+
+aside {
+  border: solid 15px green;
+  text-align: center;
+  border: dashed green; }
+
+/*# sourceMappingURL=style.css.map */

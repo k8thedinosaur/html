@@ -1,24 +1,34 @@
 body {
-    font-family: "Sitka Small";
-    color: #13293D;
+    font-family: "Sitka Small", Arial, sans-serif;
+    color: #fafafa;
+    margin: 0;
 }
 
 h1, h2, h3 {
-    font-family: "Sitka Heading"
+    font-family: "Sitka Heading", Arial bold, sans-serif;
+}
+
+header h1 {
+    margin-bottom: 0;
+}
+
+header p {
+    margin-bottom: 30px;
+    margin-top: 0;
 }
 
 a {
     text-decoration: none;
-    font-family: "Calibri Light", sans-serif;
+    font-family: "Sitka Small", Arial, sans-serif;
 }
 
 header {
     display: flex;
     align-items: center;
-    height: 5em;
-    background-color: #13293D;
-    border-bottom: solid 4px #2A628F;
-    color: #fff;
+    height: 7em;
+    background-color: #434559;
+    border-bottom: solid 5px #e992b6;
+    /*color: #fff;*/
     width: 100%;
     top: 0;
     padding: 15px;
@@ -28,7 +38,7 @@ header {
 header img {
     	height:100%;
 	border-radius:50%;
-	border:solid #2A628F 5px;
+	border:solid #e992b6 5px;
 	margin-right: 20px;
 }
 
@@ -37,17 +47,18 @@ header div {
 }
 
 aside {
-    background-color: #3E92CC;
-    margin-top: 5em;
-    width: 100%;
+    background-color: #99a1b8;
+    margin-top: 8em;
+    border-top: solid 5px #e992b6;
+    border-bottom: solid 5px #e992b6;
 }
 
 section {
-
+    color: #434559;
 }
 
 section div {
-    margin-top: 2em;
+    margin-top: 0;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -56,13 +67,25 @@ section div {
 }
 
 section div a {
-    border: solid 4px #2A628F ;
-    background-color: #16324F;
-    color: #fff;
-    padding: 15px;
+    border: solid 4px #e992b6;
+    border-radius: 10px;
+    background-color: #434559;
+    color: #fafafa;
+    padding: 30px;
 }
 
 aside, section, footer {
-    padding: 5em;
+    padding: 2em;
+}
+
+footer {
+    color: #434559;
+}
+footer li {
+    list-style: none;
+}
+
+footer li:before {
+
 }
 
